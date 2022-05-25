@@ -374,7 +374,6 @@ ul{
 }
 
 .modal-check:checked + .check-icon{
-    content: '';
     background-color: #2196F3;
     border-color: transparent;
     background-image: url(../images/icon\ check.svg);
