@@ -355,6 +355,7 @@ ul{
 
 .label-check{
     display: flex;
+    justify-content: center;
     align-items: center;
     font-weight: 400;
     font-size: 14px;
@@ -409,6 +410,7 @@ ul{
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
+    outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -425,7 +427,6 @@ ul{
 
 .button-modal{
     position: absolute;
-    /* transform: translateX(60%); */
     margin-top: 30px;
     margin-left: 125px;
     margin-right: 125px;
@@ -434,7 +435,7 @@ ul{
     height: 50px;
     background-color: #2196F3;
     border-radius: 4px;
-    border-color: transparent;
+    border: none;
     cursor: pointer;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -923,6 +924,7 @@ ul{
 }
 
 .footer-form{
+    display: inline-block;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -967,4 +969,6 @@ ul{
     border-radius: 4px;
     margin-left: 12px;
     padding-left: 29px;
+    border: none;
+    cursor: pointer;
 }
